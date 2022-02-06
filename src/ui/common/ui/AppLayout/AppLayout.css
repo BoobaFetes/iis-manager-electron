@@ -1,0 +1,11 @@
+.app-layout {
+  height: inherit;
+  padding: 16px;
+}
+
+.app-layout > .container {
+  overflow: auto;
+}
+.app-layout > .container > * {
+  flex: 0 0 auto;
+}
